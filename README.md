@@ -34,6 +34,23 @@
 7. 按 `docs/完整工作流程.md` 记录来源、论点、课程概念、数据位置、限制和待确认问题。
 8. 提交前人工核对原始来源、引用、数据、格式、老师要求和学校 AI 政策。
 
+## 在 Codex 中使用 Skill
+
+仓库内的 Skill 位于 `skills/assignment-research-skills/`。如需在自己的 Codex 中使用：
+
+1. 下载或克隆本仓库，将该 Skill 文件夹复制到 Codex 的个人 Skill 目录：`%CODEX_HOME%\skills\assignment-research-skills\`（若未设置 `CODEX_HOME`，默认位置为 `%USERPROFILE%\.codex\skills\assignment-research-skills\`）。只复制这个 Skill 文件夹，不要把个人作业或 Vault 放进仓库。
+2. 新开 Codex 对话，并在测试请求中明确写 `$assignment-research-skills`。如果 Codex 无法识别或读取该 Skill，应要求它明确说明，不要假装已经加载。自动选择也可能根据 Skill 名称与描述触发；要稳定调用时使用显式名称。
+3. 附上当前 Assignment Brief、Rubric/Marking Scheme、相关 Lecture Notes、老师补充要求，以及你负责部分的草稿（如有）。也可提供这些文件的准确路径；不要要求扫描整个电脑或 Vault。
+默认与 Codex 对话使用华文；只有你明确要求英文或其他语言时才改用对应语言。若作业要求英文正文，Codex 可用英文起草正文，分析、解释和进度报告仍默认使用华文。模板和 Skill 内部资料双语呈现，不会自动让最终回答变成双语。
+
+4. 按任务提出具体请求，例如：
+
+   - `$assignment-research-skills 请先拆解这份 Brief 和 Rubric，列出我负责的 Recommendation 部分要求，先不要写作。`
+   - `$assignment-research-skills 请为这个具体论点寻找少量学术来源，分别核对来源存在性、书目信息和论点支持，并说明阅读范围。`
+   - `$assignment-research-skills 请只起草我负责的 Recommendation 部分，使用附件中的证据和清晰的本科生英文。`
+   - `$assignment-research-skills 请根据我提供的学校指南和老师要求检查文内引用与 References。`
+
+按当前任务提供必要材料，并自行核对所有来源和最终提交内容。Skill 不会替你读取未提供的本地文件，也不会自动提交 Assignment。
 ## 按自己的学校修改
 
 在复制后的版本中，把学校 APA 指南、引用规则、课程政策和本地路径换成你自己学校当前适用的信息。不要把 TAR UMT 或其他学校的规则直接当作你课程的规则。若老师对某次作业给出不同规定，记录该次要求并优先执行。
@@ -93,6 +110,23 @@ It does not automatically read files on your computer or in your Obsidian Vault.
 7. Use `docs/完整工作流程.md#english` to record sources, claims, course concepts, data locations, limitations, and unresolved questions.
 8. Manually check primary sources, citations, data, formatting, instructor requirements, and your institution's AI policy before submission.
 
+### Use the Codex Skill
+
+The Skill is in `skills/assignment-research-skills/`. To use it in Codex:
+
+1. Download or clone this repository and copy that Skill folder into your personal Codex skills directory: `%CODEX_HOME%\skills\assignment-research-skills\` (if `CODEX_HOME` is unset, the default is `%USERPROFILE%\.codex\skills\assignment-research-skills\`). Copy only the Skill folder; do not place personal assignments or your Vault in this repository.
+2. Start a new Codex conversation and explicitly include `$assignment-research-skills` in a test request. If Codex cannot recognize or read it, ask Codex to say so rather than pretend it was loaded. Automatic selection may also use the Skill name and description; use the explicit name for reliable invocation.
+3. Attach the current Assignment Brief, Rubric/Marking Scheme, relevant Lecture Notes, instructor instructions, and your assigned-section draft if available. You may provide exact file paths instead; do not ask Codex to scan your whole computer or Vault.
+Chinese is the default language for communication. Codex switches to English or another language only when you ask. If the assignment requires English prose, Codex may draft that content in English while keeping analysis, explanations, and progress reports in Chinese by default. Bilingual internal templates do not make the final response bilingual.
+
+4. Give a specific task, for example:
+
+   - `$assignment-research-skills First analyze this Brief and Rubric. List the requirements for my assigned Recommendations section; do not draft yet.`
+   - `$assignment-research-skills Find a small set of academic sources for this specific claim. Verify source existence, bibliographic details, and claim support separately, and state what you read.`
+   - `$assignment-research-skills Draft only my assigned Recommendations section using the attached evidence and clear undergraduate English.`
+   - `$assignment-research-skills Check my in-text citations and References against the institutional guide and instructor requirements I provide.`
+
+Provide only the materials needed for the current task. Verify sources and the final submission yourself. The Skill cannot read local files that you have not provided and will not submit an assignment automatically.
 ### Adapt It to Your Institution
 
 Replace the school APA guide, citation rules, course policies, and local paths in your copied version with the requirements applicable at your institution. Do not treat TAR UMT or another institution's rules as universal. If an instructor gives different rules for a specific assignment, record and follow those requirements for that assignment.
