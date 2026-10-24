@@ -41,6 +41,10 @@
 1. 下载或克隆本仓库，将该 Skill 文件夹复制到 Codex 的个人 Skill 目录：`%CODEX_HOME%\skills\assignment-research-skills\`（若未设置 `CODEX_HOME`，默认位置为 `%USERPROFILE%\.codex\skills\assignment-research-skills\`）。只复制这个 Skill 文件夹，不要把个人作业或 Vault 放进仓库。
 2. 新开 Codex 对话，并在测试请求中明确写 `$assignment-research-skills`。如果 Codex 无法识别或读取该 Skill，应要求它明确说明，不要假装已经加载。自动选择也可能根据 Skill 名称与描述触发；要稳定调用时使用显式名称。
 3. 附上当前 Assignment Brief、Rubric/Marking Scheme、相关 Lecture Notes、老师补充要求，以及你负责部分的草稿（如有）。也可提供这些文件的准确路径；不要要求扫描整个电脑或 Vault。
+
+
+### 回答语言
+
 默认与 Codex 对话使用华文；只有你明确要求英文或其他语言时才改用对应语言。若作业要求英文正文，Codex 可用英文起草正文，分析、解释和进度报告仍默认使用华文。模板和 Skill 内部资料双语呈现，不会自动让最终回答变成双语。
 
 4. 按任务提出具体请求，例如：
@@ -117,6 +121,10 @@ The Skill is in `skills/assignment-research-skills/`. To use it in Codex:
 1. Download or clone this repository and copy that Skill folder into your personal Codex skills directory: `%CODEX_HOME%\skills\assignment-research-skills\` (if `CODEX_HOME` is unset, the default is `%USERPROFILE%\.codex\skills\assignment-research-skills\`). Copy only the Skill folder; do not place personal assignments or your Vault in this repository.
 2. Start a new Codex conversation and explicitly include `$assignment-research-skills` in a test request. If Codex cannot recognize or read it, ask Codex to say so rather than pretend it was loaded. Automatic selection may also use the Skill name and description; use the explicit name for reliable invocation.
 3. Attach the current Assignment Brief, Rubric/Marking Scheme, relevant Lecture Notes, instructor instructions, and your assigned-section draft if available. You may provide exact file paths instead; do not ask Codex to scan your whole computer or Vault.
+
+
+### Language for Codex Responses
+
 Chinese is the default language for communication. Codex switches to English or another language only when you ask. If the assignment requires English prose, Codex may draft that content in English while keeping analysis, explanations, and progress reports in Chinese by default. Bilingual internal templates do not make the final response bilingual.
 
 4. Give a specific task, for example:
