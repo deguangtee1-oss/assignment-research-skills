@@ -31,8 +31,12 @@
 4. 在 Codex 中提供自己的 Vault 本地路径；不要让 Codex 扫描整个电脑。
 5. 每次作业准备 Assignment Brief、Rubric/Marking Scheme、Lecture Notes、老师补充指示及当前草稿（如有）。
 6. 从 `prompts/` 选择适合当前阶段的指令；先任务拆解，再分阶段推进。
-7. 按 `docs/完整工作流程.md` 记录来源、论点、课程概念、数据位置、限制和待确认问题。
+7. 将 `docs/完整工作流程.md` 作为使用者概览和导航；实际填写追踪记录时使用 [`作业规划与证据记录模板`](skills/assignment-research-skills/assets/作业规划与证据记录模板.md)，需要完整执行规则时阅读 [详细 workflow reference](skills/assignment-research-skills/references/完整工作流程.md)。
 8. 提交前人工核对原始来源、引用、数据、格式、老师要求和学校 AI 政策。
+
+需要逐项追踪 Rubric、论点、证据及正文位置时，使用 [作业规划与证据记录模板](skills/assignment-research-skills/assets/作业规划与证据记录模板.md)；完整详细规则由 Skill 的 workflow reference 维护。[验收案例](docs/验收案例.md)记录合成材料的人工检查方法和实际执行结果，不代表尚未执行的案例已经通过。
+
+先遵循本次 Coursework、Rubric 和教师明确指示；未提供作业级格式要求时，核对 TAR UMT Library 当前官方引用指南及课程/学科例外。TAR UMT Library 指南将 APA 7 列为主要风格，同时承认部分课程可能采用其他风格。适用要求尚未确认时标记「待确认」，不要仅因一般 APA 7 细节不同就判定违规；来源与主张核查、文内引用和 References 的对应检查仍可继续。独立提示词见 [APA 7 引用检查](prompts/04-APA7引用检查.md)，详细规则集中在 Skill 的 APA reference。
 
 ## 在 Codex 中使用 Skill
 
@@ -79,7 +83,8 @@
 - [华文使用指南](docs/使用指南.md)
 - [English Usage Guide](docs/USAGE_GUIDE_EN.md)
 - [华文完整工作流程](docs/完整工作流程.md)
-- [完整工作流程英文部分](docs/完整工作流程.md#english)
+- [完整工作流程英文部分](docs/完整工作流程.md#english-overview)
+- [合成材料验收案例及执行记录](docs/验收案例.md)
 - [可复制 Codex 指令](prompts/)
 
 ## English
@@ -111,8 +116,12 @@ It does not automatically read files on your computer or in your Obsidian Vault.
 4. Give Codex your own local Vault path; do not ask it to scan your whole computer.
 5. Prepare the Assignment Brief, Rubric/Marking Scheme, Lecture Notes, instructor instructions, and current draft if available.
 6. Select a prompt from `prompts/`; begin with requirement analysis and proceed in stages.
-7. Use `docs/完整工作流程.md#english` to record sources, claims, course concepts, data locations, limitations, and unresolved questions.
+7. Use `docs/完整工作流程.md#english-overview` as the user-facing overview and navigation. Fill in tracking records with the [assignment planning and evidence template](skills/assignment-research-skills/assets/作业规划与证据记录模板.md); read the [detailed workflow reference](skills/assignment-research-skills/references/完整工作流程.md) for the full execution rules.
 8. Manually check primary sources, citations, data, formatting, instructor requirements, and your institution's AI policy before submission.
+
+For criterion-level traceability, use the [assignment planning and evidence template](skills/assignment-research-skills/assets/作业规划与证据记录模板.md). Detailed workflow rules have one canonical Skill reference. The [acceptance cases](docs/验收案例.md) describe synthetic manual checks and their actual execution records; unexecuted cases are not passes.
+
+Follow the current Coursework, Rubric, and explicit instructor instructions first. If assignment-level style instructions are unavailable, check the current official TAR UMT Library guide and any programme or course exception. The TAR UMT Library guide identifies APA 7 as the main style while recognizing that some programmes may use another style. If the applicable requirement remains unconfirmed, mark it to be confirmed; do not declare a violation solely for differing from general APA 7 details. Source-to-claim checks and basic in-text citation/Reference matching can still proceed. The standalone [APA 7 citation-check prompt](prompts/04-APA7引用检查.md) links to the Skill's canonical detailed APA reference.
 
 ### Use the Codex Skill
 
@@ -159,5 +168,6 @@ No license has been selected or added. This version is **not yet formally licens
 - [华文使用指南](docs/使用指南.md)
 - [English Usage Guide](docs/USAGE_GUIDE_EN.md)
 - [华文完整工作流程](docs/完整工作流程.md)
-- [Full Workflow in English](docs/完整工作流程.md#english)
+- [Full Workflow in English](docs/完整工作流程.md#english-overview)
+- [Synthetic acceptance cases and execution records](docs/验收案例.md)
 - [Copyable Codex Prompts](prompts/)

@@ -7,102 +7,98 @@ description: "协助大学生用 Codex 拆解 Assignment 要求、检索和核�
 
 ## 中文指引
 
-### 适用范围与边界
+### 范围和语言
 
-这是 TAR UMT Business Administration 学生根据个人 Assignment 经验整理的非官方项目，不代表 TAR UMT 立场，也不是经过全面验证的完整成品。使用者必须以自己当前的 Assignment Brief、Rubric、Lecture Notes 和老师指示为准；各学校和老师的 APA 7 要求可能不同。
+本 Skill 用于大学 Assignment 的规划、研究、指定章节写作、引用与最终审核；一般知识问答、无关写作或简单翻译不需要加载。项目是 TAR UMT Business Administration 学生整理的非官方学习资源，不代表学校立场，也未经全面验证。以当前 Brief、Rubric、Lecture Notes 和教师要求为准。
 
-### 回答语言
+- 与用户沟通默认使用华文，不自动附英文翻译。
+- 若作业要求英文正文，可按要求提供英文作业内容；要求分析、解释、修改理由和进度报告时仍默认华文。
+- 用户明确要求英文或其他语言时，按其要求回应。内部文件双语不代表最终回复必须双语。
 
-- 默认与使用者交流时只用华文；不要自动附上英文翻译或中英双语答案。
-- 只有使用者明确要求英文解释、英文答案、英文版本或翻译成英文时，才提供英文内容。使用者要求其他目标语言时，按其指定语言处理。未指定语言时默认华文，不反复询问。
-- 若 Assignment 要求英文正文，可按要求撰写英文作业内容；分析要求、解释概念、说明修改理由和报告进度时仍默认使用华文。
-- Skill 的内部指令、参考资料或模板中英并列，不代表最终回答也要双语。
-- 此策略不得妨碍遵循老师对作业语言、格式和专业术语的要求。
-当用户要求拆解、研究、撰写或审核大学作业时使用本 Skill；一般知识问答、无关写作或简单翻译不需要加载。
+### 开始前
 
-### 开始前与参考资料选择
+1. 只读用户明确提供的文件或路径；不扫描整个电脑、Vault 或未指定目录。路径不可访问时指出缺项。
+2. 确认当前 Brief、Rubric/Marking Scheme、相关 Lecture Notes、教师补充要求、来源限制、引用规则、字数、提交要求、用户负责范围和请求范围。缺少关键材料、存在实质冲突或分工不明时先列问题并确认，不猜测、不默认写完整作业。
+3. 分阶段工作；只处理用户指定部分，保留未要求修改的已完成内容。
 
-1. 只读取用户本次明确提供的文件或路径；不扫描整个电脑、Vault 或未指定目录。路径不可访问时指出具体缺项。
-2. 收集本次 Brief、Rubric/Marking Scheme、相关 Lecture Notes、老师补充要求、资料来源限制、引用格式、字数和提交规则。
-3. 确认用户负责的章节、分工、当前草稿和请求范围。若材料不能确定分工，先澄清；不要默认写完整篇 Assignment。
-4. 按当前任务选读，不要加载所有参考资料：
-   - 任务拆解、全流程或综合作业：读 [完整工作流程](references/完整工作流程.md)。
-   - 寻找资料、建立证据表：读完整工作流程的来源与证据部分；需要表格时复制 [规划与证据记录模板](assets/作业规划与证据记录模板.md)。
-   - APA 7 或引用核查：读 [APA 7 引用核查](references/APA7引用核查.md)。
-   - 统计、定量数据、图表或 Presentation：读 [统计数据与 Presentation](references/统计数据与Presentation.md)。
-   - 最终审核：读完整工作流程的 Rubric 审核与交付部分。
-   - 单纯英文润色：只读相关草稿和本次要求，保留原意，不加载无关资料。
+### 详细规则路由
 
-### 执行顺序
+只读取当前任务所需的详细维护源，不在 Skill 内复制完整字段手册：
 
-1. 提取题目动词、交付物、章节、字数、Rubric 重点、允许来源、格式和待确认事项。将评分项对应到课程概念、论点、证据及文章位置；不适用的讲义内容标为“不适用”。
-2. 锁定用户请求的范围。分阶段工作，只改用户指定部分，保留未要求修改的已完成内容。
-3. 按具体论点检索少量相关资料，并遵守老师的来源限制。只用当前可用且获准的工具；未经明确授权不安装软件、Skill、插件或使用付费服务。
-4. 核心来源分别记录三项状态：来源存在性（已核实/待确认）、书目信息（已核实/待确认）、论点支持（已核实/待确认）。每项“已核实”须有可复查链接或原文位置。优先检查期刊、出版社或机构正式页面；有 DOI 时检查对应记录。分别核对标题、完整作者及顺序、期刊/出版物、年份、DOI。一个元数据服务无结果不代表来源不存在。
-5. 记录阅读范围：已阅读全文、仅摘要、仅元数据或未核实。论点支持尽可能记录全文页码、段落、表格或数据位置。不得仅凭标题、摘要、搜索结果、DOI 格式或元数据声称论文支持论点；元数据不证明期刊质量或同行评审状态。
-6. 先整理来源观点与具体证据，再对应到 Assignment 论点和章节，并记录限制或不同观点。证据不支持原论点时，调整论点或找其他来源，不扭曲来源。
-7. 涉及公司或定量数据时记录原始来源、报告名称/年度、准确位置、数值、单位、币种、统计期间；计算要记录公式、输入和结果。不得编造数据、页码、计算依据、引用或研究结果。
-8. 遵循老师的引用要求；没有额外要求时采用使用者学校当前官方指南。只有本次作业要求 APA 7 时才应用 APA 7。检查文内引用与参考文献双向对应、字段和格式；格式正确不证明来源真实或论点成立。
-9. 用清晰、自然、正式的本科生英文起草或润色。每段提出明确观点并解释证据如何支持；区分事实、推断、建议和个人判断，不把相关性写成因果关系，不夸大结论。
-10. 依据 Rubric 检查任务覆盖、证据、字数、结构、引用、数据、英文、图表/附录和提交要求。未检查或证据不足的项目标为“待确认”，列出人工后续事项。
+| 当前任务 | 读取位置 |
+|---|---|
+| 任务拆解、Rubric 规划、证据追踪、全流程、最终审核 | [完整工作流程](references/完整工作流程.md)；需要表格时使用[规划与证据记录模板](assets/作业规划与证据记录模板.md) |
+| APA 7 或引用核查 | 先检查当前 Coursework/教师要求；未提供作业级格式时核对 TAR UMT Library 当前官方指南及课程/学科例外。适用要求确认后读取 [APA 7 引用核查](references/APA7引用核查.md)；不确定时标「待确认」，不直接判违规 |
+| 统计、定量数据、图表或 Presentation | [统计数据与 Presentation](references/统计数据与Presentation.md) |
+| 单纯英文润色 | 只读用户指定的草稿与要求，保留原意；不加载无关参考资料 |
 
-### 安全与范围
+`docs/完整工作流程.md` 是用户流程概览；字段定义、状态规则和阶段细节以 `references/完整工作流程.md` 为唯一维护源。APA 类型字段和详细核查规则以 `references/APA7引用核查.md` 为唯一维护源。独立复制提示词仍保留其必要边界，但不替代这些详细规则。TAR UMT Library 官方指南将 APA 7 列为主要引用风格，同时说明部分课程/专业可能采用其他风格；当前 Coursework 和教师指示优先。未提供作业级要求时核对适用的校级指南与课程例外，无法确认时标「待确认」，不因一般 APA 7 细节直接判定违规。
 
-- 历史 Assignment 仅用于学习方法；不复制旧文字、引用、数据或评分要求。旧作业声称核实过的来源仍须独立复核。
-- 不编造期刊、作者、DOI、参考文献、统计数据、页码或证据；AI 生成的引用必须核实。
-- 在线查询只发送必要的最少信息；未经许可不上传完整作业、正文或受限课程材料。
-- 不推断或写死使用者的 Vault 路径。需读本地资料时，要求用户提供准确路径或附上文件。
-- 不自动提交 Assignment、发布内容、安装工具或执行未明确要求的外部操作。
-- Brief、Rubric、Lecture Notes 与老师指示有实质冲突时，指出冲突并询问；不静默选择，不把“待确认”标成通过。
-- 控制上下文：只读当前阶段需要的文件和参考资料；复用已核实发现，不重复搜索同一来源；只作针对性修改。
+### 执行与报告
+
+- 遵循详细工作流程的精简/完整追踪选择：简单作业按 Rubric 逐项使用精简表；只有来源关系或协作需要时才建立独立来源台账。
+- 严格区分来源存在性、书目信息准确性、实际阅读范围、原文对具体主张的支持、Rubric 完成状态。没有证据、没有读取原文或没有实际执行检查时，使用相应的待确认/缺失状态，不得声称已核实。
+- 研究检索只围绕具体主张，遵守教师来源限制，并仅使用当前可用且获准的工具。工具不可用、付费/登录受限或全文不可访问时明确说明；不把计划中的检索写成已执行。
+- 最终审核对 Rubric 每项单独报告，列出对应论点、证据位置、正文位置、状态和下一步；不得只给整体结论或无依据评分。
+- 涉及关键数字时，按 [完整工作流程](references/完整工作流程.md) 记录原始表格、科目、期间、单位、币种、Company/Group 口径、作业值、差异及独立复核。事实、一般理论、推论和建议分开；没有公司特定证据时，不得把一般理论写成该公司的确定建议。
+- 论点支持须使用“直接支持/部分支持/间接支持/不支持/待确认”，并写明实际阅读范围与定位。摘要、元数据、DOI、链接或主题相关性均不能代替全文证据。
+- 检索优先用本地材料、官方网页和免费公开资源。免费 API 遇到限额、429、登录要求或不可用时停止并标记，不转付费服务；不购买 Key、不要求用户粘贴密钥，不上传完整作业或私人课程材料。
+- 使用清晰、自然、正式的本科生英文起草/润色；解释、分析和进度报告默认用华文。保留原意、证据强度、限定语和引用。
+
+### 安全和范围
+
+- 不编造来源、作者、DOI、数据、页码或证据；AI 生成的引用必须核实。格式正确或 DOI 存在不证明来源支持主张。
+- 在线查询仅发送最少必要信息；未经许可不上传完整作业、正文或受限课程材料。
+- 不推断或写死 Vault 路径；需要本地材料时要求用户给出准确路径或附件。
+- 不自动提交作业、发布内容、安装工具/Skill/插件、使用付费服务或执行未明确要求的外部操作。
+- Brief、Rubric、讲义和教师要求有实质冲突时列明并询问；不静默选择，不把待确认项目标为通过。
+- 历史 Assignment 不自动复用文字、引用、数据或评分规则；旧来源仍需针对当前主张重新核实。
 
 ## English
 
-### Scope and boundaries
+### Scope and language
 
-This is an unofficial project prepared by a TAR UMT Business Administration student from personal assignment experience. It does not represent TAR UMT and is not fully validated. Follow the user's current Assignment Brief, Rubric, Lecture Notes, and instructor instructions. APA 7 requirements vary by institution and instructor.
+Use this Skill for university assignment planning, research, drafting a requested section, citation review, and final review—not general questions, unrelated writing, or simple translation. This is an unofficial, unvalidated learning resource prepared by a TAR UMT Business Administration student. Follow the current Brief, Rubric, Lecture Notes, and instructor requirements.
 
-### Response language
+- Use Chinese by default when communicating with the user; do not add an unsolicited English translation.
+- If the assignment requires English prose, provide the requested English assignment content while keeping analysis, explanations, edit reasons, and progress reports in Chinese by default.
+- Follow an explicit request for English or another language. Bilingual internal files do not require bilingual final responses.
 
-- Use Chinese by default when communicating with the user. Do not automatically add an English translation or bilingual response.
-- Provide English only when the user explicitly asks for an English explanation, answer, version, or translation. Use another requested target language when specified. If no language is specified, default to Chinese without repeatedly asking.
-- If the assignment requires English prose, produce the requested assignment content in English; keep requirement analysis, concept explanations, reasons for edits, and progress reports in Chinese by default.
-- Bilingual internal instructions, references, or templates do not require bilingual final responses.
-- This policy does not override the instructor's requirements for assignment language, format, or technical terminology.
-Use this skill for university assignment planning, research, drafting, editing, or review—not general questions, unrelated writing, or simple translation.
-
-### Before starting and reference routing
+### Before starting
 
 1. Read only files or paths the user explicitly provides. Do not scan the computer, an entire Vault, or unspecified folders. Identify inaccessible or missing files.
-2. Gather the current Brief, Rubric/Marking Scheme, relevant Lecture Notes, instructor instructions, source limits, citation style, word count, and submission rules.
-3. Confirm the user's assigned section, group responsibilities, draft, and requested scope. Ask if responsibilities remain unclear; do not assume a complete assignment is wanted.
-4. Read only relevant resources:
-   - Planning or broad workflow: [full workflow](references/完整工作流程.md).
-   - Source research/evidence mapping: source and evidence sections of the workflow; copy [the planning and evidence template](assets/作业规划与证据记录模板.md) if useful.
-   - APA 7/citation checks: [APA 7 citation checks](references/APA7引用核查.md).
-   - Statistics, quantitative data, charts, or presentations: [data and presentation guidance](references/统计数据与Presentation.md).
-   - Final review: rubric review and handover sections of the workflow.
-   - English-only editing: read only the relevant draft and current requirements, preserve meaning, and skip unrelated references.
+2. Confirm the current Brief, Rubric/Marking Scheme, relevant Lecture Notes, instructor instructions, source limits, citation rules, word count, submission rules, assigned section, and requested scope. If key materials are missing, requirements materially conflict, or responsibilities are unclear, list the questions and ask; do not guess or assume a complete assignment is wanted.
+3. Work in stages. Edit only the requested portion and preserve completed material outside that scope.
 
-### Execution sequence
+### Detailed-rule routing
 
-1. Extract task verbs, deliverables, sections, word count, rubric criteria, allowed sources, formatting, and unresolved questions. Map criteria to course concepts, claims, evidence, and document locations; mark irrelevant lecture concepts “not applicable.”
-2. Confirm the requested scope and work in stages. Edit only the requested section and preserve completed material outside it.
-3. Find a small set of relevant sources for specific claims, following instructor restrictions. Use currently available, authorized tools; do not install software, skills, or plugins or use paid services without explicit authorization.
-4. Track source existence, bibliographic accuracy, and claim support separately as verified/to be confirmed. A verified status requires a checkable link or original-text location. Prefer official journal, publisher, or institutional pages; check DOI records when available. Verify title, full author list/order, journal/publication, year, and DOI. No result from one metadata service does not prove nonexistence.
-5. Record reading scope (full text, abstract only, metadata only, or unverified). Locate claim support in full text where possible (page, paragraph, table, or data). Do not infer support from a title, abstract, search result, DOI syntax, or metadata. Metadata does not establish journal quality or peer review.
-6. Organize source claims and specific evidence against assignment claims and sections, including limitations and differing views. Revise unsupported claims or find other sources; never distort a source.
-7. For company or quantitative data, record the primary source, report/year, exact location, value, unit, currency, and period. Keep formulas, inputs, and results for calculations. Never invent data, page numbers, calculation bases, citations, or findings.
-8. Follow the instructor's citation requirements; otherwise use the user's institution's current official guide. Apply APA 7 only when required. Check two-way citation/reference matching, fields, and format; correct format does not prove existence or claim support.
-9. Draft or edit in clear, natural, formal undergraduate English. Make each paragraph's point explicit and explain its evidence. Distinguish facts, inferences, recommendations, and judgments; do not turn correlation into causation or overstate findings.
-10. Review against each Rubric criterion: task coverage, evidence, word count, structure, citations, data, English, charts/appendices, and submission requirements. Mark unchecked or weakly supported items “to be confirmed” and list manual follow-up.
+Read only the detailed maintenance source needed for the task; do not duplicate its full field manual in this Skill:
+
+| Task | Read |
+|---|---|
+| Assignment planning, Rubric mapping, evidence tracking, full workflow, final review | [Full workflow](references/完整工作流程.md); use the [planning and evidence template](assets/作业规划与证据记录模板.md) when useful |
+| APA 7 or citation check | Check current Coursework/instructor requirements first. If assignment-level instructions are absent, consult the current official TAR UMT Library guide and programme/course exceptions. Read [APA 7 citation checks](references/APA7引用核查.md) when APA 7 applies; otherwise mark the applicable style to be confirmed and do not declare a violation |
+| Statistics, quantitative data, charts, or presentations | [Data and presentation guidance](references/统计数据与Presentation.md) |
+| English-only editing | Read only the requested draft and current requirements; preserve meaning and skip unrelated resources |
+
+`docs/完整工作流程.md` is a user-facing overview; the workflow reference is the sole detailed source for fields, statuses, and stage rules. The APA reference is the sole detailed source for APA type fields and checks. Copyable prompts retain essential boundaries but do not replace the detailed sources. The official TAR UMT Library guide identifies APA 7 as the main referencing style while noting that some programmes may use another style. Follow the current Coursework and instructor instructions first; if assignment-level rules are absent, check the current official guide and applicable programme/course exceptions. If the applicable rule cannot be confirmed, mark it to be confirmed; do not declare a violation based only on general APA 7 details.
+
+### Execution and reporting
+
+- Follow the workflow reference's compact/full tracking choice: use a compact row per criterion for simple assignments; create a separate source ledger only when source relationships or collaboration require it.
+- Keep source existence, bibliographic accuracy, actual reading scope, support for a specific claim, and Rubric completion separate. Use a missing/to-be-confirmed status when evidence, source text, or an actual check is unavailable; never claim verification that did not occur.
+- Search only for specific claims, follow instructor source limits, and use currently available authorized tools. State when tools are unavailable, access is restricted, or full text cannot be obtained; do not report planned searches as performed.
+- Review every Rubric criterion individually, with its claim, evidence location, document location, status, and next action. Do not substitute an overall conclusion or unsupported grade.
+- For material figures, record the original table, line item, period, units, currency, Company/Group scope, assignment value, discrepancy, and independent second check in the workflow reference. Separate reported facts, general theory, inference, and recommendation; do not turn general theory into a company-specific recommendation without company evidence.
+- Classify claim support as directly supported, partly supported, indirectly supported, not supported, or to be confirmed, and state actual reading scope and location. Abstracts, metadata, DOIs, links, and topical relevance do not substitute for full-text evidence.
+- Prefer local materials, official pages, and free public resources. Stop at free API limits, HTTP 429, login requirements, or service failures; do not fall back to paid services, buy keys, request pasted secrets, or upload complete assignments/private course materials.
+- Draft/edit in clear, natural, formal undergraduate English. Keep explanations and progress reports in Chinese by default. Preserve meaning, evidence strength, qualifications, and citations.
 
 ### Safety and scope
 
-- Use past assignments only to learn methods. Do not copy old prose, citations, data, or grading rules. Independently recheck sources an old assignment claims to have verified.
-- Never invent journals, authors, DOIs, references, statistics, page numbers, or evidence. Verify AI-generated citations independently.
-- Send only the minimum information needed for an online query; do not share complete assignments, body text, or restricted materials without permission.
-- Never infer or hard-code the user's Vault path. Ask for the exact path or files.
-- Do not submit assignments, publish content, install tools, or take other external actions unless explicitly requested.
-- Identify material conflicts among the Brief, Rubric, Lecture Notes, and instructor instructions and ask for clarification. Do not silently choose or mark unresolved items as passed.
-- Conserve context: read only relevant files and references, reuse verified findings, avoid duplicate searches, and make targeted edits.
+- Never invent sources, authors, DOIs, data, page numbers, or evidence. Verify AI-generated citations. Correct formatting or an existing DOI does not prove that a source supports a claim.
+- Send only the minimum information needed for online queries; do not share complete assignments, body text, or restricted material without permission.
+- Never infer or hard-code a Vault path. Ask for the exact path or files when local materials are needed.
+- Do not submit assignments, publish content, install tools/Skills/plugins, use paid services, or take other external actions unless explicitly requested.
+- Identify material conflicts among the Brief, Rubric, Lecture Notes, and instructor instructions and ask; do not silently choose or mark unresolved items as passed.
+- Do not automatically reuse past assignment prose, citations, data, or grading rules. Recheck old sources against the current claim.
